@@ -1,0 +1,27 @@
+
+
+<main>
+        <div class="container1">
+            <div>{{messageErreur}}</div>
+
+
+            <form id="connexion" (submit)="connexion($event)">
+                <div>
+                   <h3 style="text-align: center;">LOGO</h3>
+                   <h3>Welcome to MentV. Enter your credentials to login.</h3><br>
+                    <input type="email" name="email" placeholder="Username" id="email">
+                </div>
+                <div>
+                  
+                    <input type="password"  name="mdp"  placeholder="Password" id="password"> 
+                </div>
+                <br>
+                <button class="connexionBtn" type="submit">Connexion</button>
+            </form>
+        </div>
+
+
+</main> 
+ 
+
+<app-footer></app-footer>
